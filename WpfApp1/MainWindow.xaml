@@ -1,0 +1,76 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080 px" Width="1920 px">
+    <Grid>
+        <Grid.RowDefinitions>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="852 px"></ColumnDefinition>
+            <ColumnDefinition Width="1068 px"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <StackPanel.Background>
+                <SolidColorBrush Color="#FFE5EFF8" />
+            </StackPanel.Background>
+            <Image Source="/Source/SignUp.png" 
+                   Height="570 px" Width="570 px" Margin="169.05,255,112.95,255" />
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock Height="41 px" Width="288 px" Margin="402,131,378,908" FontSize="26 px" FontFamily="Poppins SemiBold">
+                <Run Text="Create your Account"/>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock Height="31.64 px" Width="70.78 px" Margin="157.53,172,839.69,876.36" FontFamily="Poppins Medium" FontSize="20" Foreground="#FF7C838A">
+                <Run Text="Name"/>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock Height="31.64 px" Width="70.78 px" Margin="157.53,337,839.69,711.36" FontFamily="Poppins Medium" FontSize="20" Foreground="#FF7C838A">
+                <Run Text="Email"/>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock Height="31.64 px" Width="123.86 px" Margin="157.53,477.2,786.61,571.16" FontFamily="Poppins Medium" FontSize="20" Foreground="#FF7C838A">
+                <Run Text="Password"/>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBox x:Name="Passord" TextChanged="Passord_TextChanged" Margin="155,508.84,154.66,502.61" Height="68.55" Width="758.34" FontSize="20" FontFamily="Poppins" FontWeight="Black">
+                <TextBox.Foreground>
+                    <SolidColorBrush Color="Black" Opacity="0.5"/>
+                </TextBox.Foreground>
+                <TextBox.Background>
+                    <SolidColorBrush Color="#FFB0BAC3" Opacity="0.4"/>
+                </TextBox.Background>
+                Enter your Password here
+            </TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock Height="31.64 px" Width="123.86 px" Margin="157.53,602,786.61,446" FontFamily="Poppins Medium" FontSize="20" Foreground="#FF7C838A">
+                <Run Text="Age"/>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock Height="32 px" Width="84 px" Margin="582,602,402,446" FontFamily="Poppins Medium" FontSize="20" Foreground="#FF7C838A">
+                <Run Text="Gender"/>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock Height="30 px" Width="77 px" Margin="693,663,300,387" FontFamily="Poppins Medium" FontSize="20" Foreground="#FF7C838A">
+                <Run Text="Female"/>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock Height="30 px" Width="49 px" Margin="557,663,462,387" FontFamily="Poppins Medium" FontSize="20" Foreground="#FF7C838A">
+                <Run Text="Male"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>

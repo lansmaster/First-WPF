@@ -1,0 +1,3 @@
+C:\Users\Baryshev.S.S\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Baryshev.S.S\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Baryshev.S.S\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
